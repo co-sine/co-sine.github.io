@@ -43,7 +43,6 @@ a {
   left: 0%;
   top: auto;
   right: 0%;
-  bottom: -18%;
   display: block;
   width: 100vw;
   min-height: 100vh;
@@ -869,15 +868,11 @@ a {
 }
 
 .animebgshower {
-  position: fixed;
-  left: auto;
-  top: auto;
-  right: auto;
-  bottom: auto;
   overflow: visible;
-  width: 120vw;
+  width: 100vw;
   margin-right: auto;
   margin-left: auto;
+  background-color: #ffe999;
 }
 
 .namelottie {
@@ -942,11 +937,6 @@ a {
 }
 
 .animebgseat {
-  position: fixed;
-  left: 0%;
-  top: auto;
-  right: 0%;
-  bottom: -28%;
   overflow: visible;
   width: 100vw;
   margin-right: auto;
@@ -1807,7 +1797,8 @@ a {
     top: 0%;
     right: 0%;
     bottom: 0%;
-    width: 130vw;
+    width: 140vw;
+    margin-left: 44vw;
   }
 
   .page9div {
@@ -1815,7 +1806,9 @@ a {
   }
 
   .animebgseat {
-    bottom: -13%;
+    position: static;
+    margin-top: 5vh;
+    margin-left: 48vw;
   }
 
   .project_info_bass {
@@ -2040,7 +2033,12 @@ a {
 
   .animebgshower {
     left: -28%;
-    width: 160vw;
+    width: 220vw;
+    margin-top: 2vw;
+    margin-left: 86vw;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
   }
 
   .animebgbrush {
@@ -2049,9 +2047,10 @@ a {
   }
 
   .animebgseat {
-    left: -15%;
-    bottom: -5%;
-    width: 130vw;
+    position: static;
+    width: 180vw;
+    margin-top: 10vh;
+    margin-left: 90vw;
   }
 
   .project_info_bass {
@@ -2203,9 +2202,9 @@ a {
   }
 
   .fixedbg {
-    left: -355%;
-    top: -26%;
-    width: 460vw;
+    left: -155%;
+    top: -10%;
+    width: 400vw;
   }
 
   .page1div {
@@ -2369,8 +2368,8 @@ a {
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
-    font-size: 3.8vw;
-    line-height: 3.8vw;
+    font-size: 3.7vw;
+    line-height: 3.7vw;
   }
 
   .naviproject {
@@ -2408,7 +2407,8 @@ a {
 
   .animebgshower {
     left: -127%;
-    width: 280vw;
+    width: 300vw;
+    margin-top: 30vw;
   }
 
   .namelottie {
@@ -2424,7 +2424,8 @@ a {
 
   .animebgseat {
     left: -65%;
-    width: 230vw;
+    width: 280vw;
+    margin-left: 65vw;
   }
 
   .preloader {
@@ -2516,7 +2517,8 @@ a {
   }
 
   .animebgmusici {
-    margin-top: 77vh;
+    margin-top: -54vh;
+    margin-right: -106vh;
   }
 
   .column-6 {
@@ -2525,6 +2527,12 @@ a {
 
   .page1div-bass {
     margin-top: 16%;
+  }
+
+  .animebgaboutme {
+    width: 150%;
+    margin-top: -50vh;
+    margin-left: 134vw;
   }
 
   .title-about-stroke {
